@@ -1,0 +1,12 @@
+WHILE LOOP
+
+count = 0
+while (count < 9):
+      print ('The count is:', count)
+      count = count + 1
+print ("Good bye!")
+
+FOR LOOP
+
+for i in range(1, 6):
+    print(i)
