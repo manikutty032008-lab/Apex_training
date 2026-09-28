@@ -1,0 +1,40 @@
+TUPLE
+
+# tuple of strings
+my_data = ("hi", "hello", "bye")
+ 
+# displaying all elements
+print(my_data)
+ 
+# accessing first element
+# prints "hi"
+print(my_data[0])
+ 
+# accessing third element
+# prints "bye"
+print(my_data[2])
+
+my_data = (1, 2, "Kevin", 8.9)
+
+# accessing last element
+# prints 8.9
+print(my_data[-1])
+
+# prints 2
+print(my_data[-3])
+
+my_data = (1, "Steve", (11, 22, 33))
+
+# prints 'v'
+print(my_data[1][3])
+
+# prints 22
+print(my_data[2][1])
+
+ # tuple of fruits
+my_tuple = ("Apple", "Orange", "Grapes", "Banana")
+
+# iterating over tuple elements
+for fruit in my_tuple:
+     print(fruit)
+
