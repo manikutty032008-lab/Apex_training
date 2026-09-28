@@ -1,0 +1,95 @@
+DICTIONARY
+
+1. Create and Print a Dictionary
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18,
+    "course": "B.Tech IT"
+}
+
+print(student)
+
+2. Access Dictionary Items
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18,
+    "course": "B.Tech IT"
+}
+
+print(student["name"])
+print(student["age"])
+
+3. Add an Item
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18
+}
+
+student["city"] = "Trichy"
+
+print(student)
+
+4. Change a Value
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18
+}
+
+student["age"] = 19
+
+print(student)
+
+5. Remove an Item
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18,
+    "city": "Trichy"
+}
+
+student.pop("city")
+
+print(student)
+
+6. Get Dictionary Length
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18,
+    "course": "B.Tech IT"
+}
+
+print(len(student))
+
+7. Loop Through Dictionary
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18,
+    "course": "B.Tech IT"
+}
+
+for key in student:
+    print(key)
+
+8. Check if Key Exists
+
+PROGRAM:
+student = {
+    "name": "Ashif",
+    "age": 18
+}
+
+if "name" in student:
+    print("Name is available")
