@@ -1,0 +1,50 @@
+SETS
+
+# set of integers
+my_set = {1, 2, 3}
+print(my_set)
+ 
+# set of mixed datatypes
+my_set = {1.0, "Hello", (1, 2, 3)}
+print(my_set)
+
+my_set = {1, 2, 3}
+my_set.add(4)
+print(my_set)
+
+my_set = {1, 2, 3}
+my_set.remove(2)
+print(my_set)
+numbers = [1, 2, 2, 3, 4]
+my_set = set(numbers)
+print(my_set)
+
+nums1 = {1, 2, 2, 3, 4, 5}
+nums2 = {4, 5, 6, 7, 7, 8}
+
+distinct_nums = nums1.union(nums2)
+
+print("The union of two sets is: ", distinct_nums)
+
+nums1 = {1, 2, 2, 3, 4, 5}
+nums2 = {4, 5, 6, 7, 7, 8}
+
+common_nums = nums1.intersection(nums2)
+
+print("The intersection of two sets is:", common_nums)
+
+nums1 = {1, 2, 2, 3, 4, 5}
+nums2 = {4, 5, 6, 7, 8, 8}
+
+nums3 = nums1.difference(nums2)
+nums4 = nums2.difference(nums1)
+
+print("nums1 - nums2: ", nums3)
+print("nums2 - nums1: ", nums4)
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+print(A | B)   # Union
+print(A & B)   # Intersection
+print(A - B)   # Difference
