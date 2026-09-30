@@ -1,0 +1,9 @@
+Problem statement:8
+
+marks = [78, 92, 65, 88, 70]
+
+print("Before Sorting:", marks)
+
+marks.sort()
+
+print("After Sorting:", marks)
