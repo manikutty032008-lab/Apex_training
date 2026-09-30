@@ -1,0 +1,11 @@
+Problem statement 3:
+
+
+students = ["Arun", "Bala", "Kavin", "Ravi"]
+
+new_student = "Mohan"
+position = 2
+
+students.insert(position, new_student)
+
+print("Updated Student List:", students)
