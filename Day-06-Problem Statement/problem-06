@@ -1,0 +1,13 @@
+Problem statement:6
+
+
+
+students = ["Arun", "Bala", "Kavin", "Ravi"]
+
+search_student = "Kavin"
+
+position = students.index(search_student)
+
+print("Student:", search_student)
+print("Position:", position)
+
