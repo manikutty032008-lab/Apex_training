@@ -1,0 +1,76 @@
+PYTHON TUPLE                    
+Problem 1
+Program
+ 
+statuses = ("DELIVERED", "PENDING", "DELIVERED", "CANCELLED", "DELIVERED")
+count = statuses.count("DELIVERED")
+print("DELIVERED Count =", count)	 
+ 
+
+Problem 2
+Program
+ 
+subjects = ("Python", "Java", "MySQL", "HTML")
+search = "MySQL"
+index = subjects.index(search)
+print("Subject =", search)
+print("Index =", index)	 
+ 
+
+Problem 3
+Program
+ 
+student_name = "Arun"
+roll_no = 101
+course = "B.Tech ADS"
+student = (student_name, roll_no, course)
+print("Student Details =", student)	 
+
+
+Problem 4
+Program
+ 
+student = ("Arun", 101, "B.Tech ADS")
+name, roll_no, course = student
+print("Name =", name)
+print("Roll No =", roll_no)
+print("Course =", course)	 
+ 
+
+Problem 5
+Program
+ 
+employee = ("Kavin", 205, "Python Developer", 35000)
+name, emp_id, role, salary = employee
+print("Employee Name =", name)
+print("Employee ID =", emp_id)
+print("Role =", role)
+print("Salary =", salary)	 
+ 
+
+Problem 6
+Program
+ 
+results = ("FAIL", "PASS", "PASS", "FAIL", "PASS")
+pass_count = results.count("PASS")
+first_pass = results.index("PASS")
+print("PASS Count =", pass_count)
+print("First PASS Index =", first_pass)	 
+ 
+
+Problem 7
+Program
+ 
+courses = ("Python", "Java", "Python", "SQL", "Python")
+search = "Python"
+count = courses.count(search)
+print("Python Count =", count)	 
+ 
+
+Problem 8
+Program
+ 
+categories = ("Laptop", "Mobile", "Laptop", "Tablet")
+search = "Laptop"
+index = categories.index(search)
+print("Laptop first index =", index)	 
