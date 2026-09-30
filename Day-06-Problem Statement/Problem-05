@@ -1,0 +1,9 @@
+Problem statement:5
+
+courses = ["Python", "Java", "SQL", "Spring"]
+
+removed_course = courses.pop()
+
+print("Removed Course:", removed_course)
+print("Updated Course List:", courses)
+
