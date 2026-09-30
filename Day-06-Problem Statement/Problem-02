@@ -1,0 +1,8 @@
+problem 2:
+
+existing = ["Python", "Java"]
+new = ["MySQL", "HTML", "CSS"]
+
+existing.extend(new)
+
+print(existing)
