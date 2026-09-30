@@ -1,0 +1,10 @@
+Problem statement:4
+
+
+cart = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+
+remove = "Keyboard"
+
+cart.remove(remove)
+
+print("Updated Cart:", cart)
