@@ -1,0 +1,10 @@
+Problem statement:11
+
+
+cart = ["Laptop", "Mouse", "Keyboard"]
+
+print("Before Clearing:", cart)
+
+cart.clear()
+
+print("After Clearing:", cart)
