@@ -1,0 +1,7 @@
+Problem statement 1:
+
+
+students = ["Arun", "Bala", "Kavin"]
+new_student = "ravi"
+students.append(new_student)
+print(students)
