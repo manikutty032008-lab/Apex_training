@@ -1,0 +1,11 @@
+Problem statement:7
+
+marks = [80, 75, 90, 80, 65, 80]
+
+search_mark = 80
+
+count = marks.count(search_mark)
+
+print("Search Mark:", search_mark)
+print("Number of Occurrences:", count)
+
