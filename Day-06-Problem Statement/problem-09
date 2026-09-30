@@ -1,0 +1,10 @@
+Problem statement:9
+
+students = ["Arun", "Bala", "Kavin", "Ravi"]
+
+print("Before Reversing:", students)
+
+students.reverse()
+
+print("After Reversing:", students)
+
