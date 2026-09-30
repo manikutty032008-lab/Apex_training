@@ -1,0 +1,16 @@
+Problem statement:12
+
+
+marks = [65, 78, 92, 56, 88]
+
+total = sum(marks)
+highest = max(marks)
+lowest = min(marks)
+number_of_students = len(marks)
+average = sum(marks) / len(marks)
+
+print("Total Marks:", total)
+print("Highest Mark:", highest)
+print("Lowest Mark:", lowest)
+print("Number of Students:", number_of_students)
+print("Average Mark:", average)
