@@ -1,0 +1,11 @@
+Problem statement:10
+
+students = ["Arun", "Bala", "Kavin"]
+
+backup = students.copy()
+
+new_student = "Ravi"
+backup.append(new_student)
+
+print("Original List:", students)
+print("Copied List:", backup)
